@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="mainPage.css" type="text/css" >
+    <title>Redstoner's Guide</title>
+</head>
+
+<body>
+    <h1>Redstoner's Guide (WIP)</h1>
+    <br>
+    <hr>
+    <div>
+        <h2>Components</h2>
+        <hr>
+        <div>
+            <h3>Redstone Dust</h3>
+            <p><em>Redstone dust is used in most redstone machines and redstone component recipes.</em></p>
+            <p>Redstone dust carries redstone signal, powering blocks it is laid on and any blocks its running into.</p>
+        </div>
+        <div>
+            <h3>Redstone Torch</h3>
+            <p>Redstone torches can power all surrounding blocks, excluding the one it is placed on.</p>
+            <p>Redstone torches also can be turned off by powering the block the torch is placed on.</p>
+        </div>
+        <div>
+            <h3>Repeater</h3>
+            <p>The repeater has three specific functions that are highly important to machines.</p>
+            <p>The first function being restoring a redstone line back to a power level of 15 (<em>15 is the maximum power level in redstone</em>).</p>
+            <p>The second function is to <em>delay</em> a redstone signal, having 4 different delay settings.</p>
+            <p>The third function is very rarely used, locking in a redstone signal. You can make a repeater lock either on or off by running another powered repeater into the first.</p>
+            <img src="repeaterLocking.jpg" alt="A picture showing repeaters locking function" style="width: 387px; height: 216px;">
+        </div>
+        <div>
+            <h3>Comparator</h3>
+            <p>The comparator is very strange in its functions.</p>
+            <p>The first function is <em>compare</em> mode.</p>
+            <p>Compare mode is used to make a redstone signal, based proportionally on the amount of storage space used in a container (<em>For example, a chest, dispenser, or barrel</em>).</p>
+            <p>The second function is <em>subtract</em> mode.</p>
+            <p>Subtract mode takes a redstone input from the side, and subtracts it from the input from the back. You know the comparator is in subtract mode when the front torch is lit.</p>
+            <img src="comparatorFunctions.jpg" alt="A picture showing both comparators functions" style="width: 387px; height: 216px;">
+        </div>
+        <div>
+            <h3>Redstone Block</h3>
+            <p>Redstone blocks are very simple. Their only function it serves is powering all surrounding blocks.</p>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div>
+        <h2>Builds</h2>
+        <hr>
+        <div>
+            <h3>Wool Farm</h3>
+            <p>A wool farm is a very simple farm to make, giving an infinite amount of wool.</p>
+            <h4>Resources</h5>
+            <ul>
+                <li>7 Glass Blocks</li>
+                <li>1 Dispenser</li>
+                <li>1 Observer</li>
+                <li>1 Redstone Dust</li>
+                <li>At least one set of shears</li>
+                <li>1 Rail</li>
+                <li>1 Hopper Minecart</li>
+            </ul>
+            <h4>How it Works</h4>
+            <p>When a sheep eats the grass its standing on, the observer detects that change. When it sees the change it powers the block behind it, powering the redstone dust. Which activates the dispenser, shearing the sheep. Once the sheep is sheared, it gets pulled into the hopper minecart, and will wait there until you take it out.</p>
+            <img src="woolFarm.jpg" alt="Image showing a wool farm." style="width: 387px; height: 216px;">
+        </div>
+        <div>
+            <h3>Sugarcane Farm</h3>
+            <p>A sugarcane farm is a very simple farm to make, giving an infinite amount of sugarcane.</p>
+            <h4>Resources</h5>
+            <ul>
+                <li>1 Water Bucket</li>
+                <li>10 Full Blocks (for keeping the sugarcane droping onto the hopper minecart, can use something like dirt or cobblestone.)</li>
+                <li>1 Piston</li>
+                <li>1 Observer</li>
+                <li>1 Redstone Dust</li>
+                <li>1 Rail</li>
+                <li>1 Hopper Minecart</li>
+            </ul>
+            <h4>How it Works</h4>
+            <p>When the sugarcane grows in front of the observer, it detects the sugarcane, activating the piston, breaking the sugarcane. Once its broken, it drops down, and pulled into the minecart, waiting to be harvested.</p>
+            <img src="sugarcaneFarm.jpg" alt="Image showing a sugarcane farm." style="width: 387px; height: 216px;">
+        </div>
+    </div>
+</body>
+
+</html>
