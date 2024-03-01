@@ -19,3 +19,8 @@ li
 {
     font-style: italic;
 }
+#navbar
+{
+    grid-area: navbar;
+    position: fixed;
+}
